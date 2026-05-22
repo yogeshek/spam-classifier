@@ -1,0 +1,26 @@
+# Python
+  venv/
+  __pycache__/
+  *.pyc
+  *.pyo
+  *.egg-info/
+  .pytest_cache/
+
+  # Jupyter
+  .ipynb_checkpoints/
+
+  # Data files (optional - if data is large)
+  data/*.csv
+  data/*.txt
+
+  # Models
+  models/*.pkl
+  models/*.joblib
+
+  # IDE
+  .vscode/
+  .idea/
+
+  # OS
+  .DS_Store
+  Thumbs.db
