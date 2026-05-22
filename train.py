@@ -104,18 +104,16 @@ print("\n[[True Ham, False Spam]")
 print("[False Ham, True Spam]]")
 
 #save the training model
-with open('models/spam_classifier.pk1','wb') as f:
+with open('models/spam_classifier.pkl','wb') as f:
     pickle.dump(model,f)
 #save the vectorizer
-with open('models/vectorizer.pk1', 'wb') as f:
+with open('models/vectorizer.pkl', 'wb') as f:
     pickle.dump(vectorizer, f)
     
 print("\nModel and Vectorizer saved successfully!")
 print("Files saved:")
-print("- models/spam_classifier.pk1")
-print("- models/vectorizer.pk1")
+print("- models/spam_classifier.pkl")
+print("- models/vectorizer.pkl")
 
-import os
-print(os.path.getsize("spam_classifier.pk1"))  # prints file size in bytes
     
     
