@@ -57,7 +57,7 @@ print(f"Spam in tersing: {y_test.sum()}({y_test.sum()/len(y_test)*100:.1f}%)")
 #tf-idf term frequency-inverse document frequency
 
 vectorizer = TfidfVectorizer(
-    max_features=3000, #keep top 3000 most important words
+    max_features=2000, #keep top 3000 most important words
     stop_words='english', #Remove common words like the, is , and
     lowercase=True
 )
