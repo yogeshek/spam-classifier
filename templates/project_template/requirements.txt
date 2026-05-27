@@ -1,0 +1,46 @@
+# Core ML Libraries
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Data Processing
+scipy>=1.11.0
+
+# Jupyter (for notebooks)
+jupyter>=1.0.0
+ipykernel>=6.25.0
+
+# Model Persistence
+joblib>=1.3.0
+
+# Progress Bars
+tqdm>=4.66.0
+
+# Additional utilities
+python-dotenv>=1.0.0
+
+# Optional: Deep Learning (uncomment if needed)
+# torch>=2.0.0
+# tensorflow>=2.13.0
+
+# Optional: Advanced ML (uncomment if needed)
+# xgboost>=2.0.0
+# lightgbm>=4.0.0
+# catboost>=1.2.0
+
+# Optional: NLP (uncomment if needed)
+# nltk>=3.8.0
+# spacy>=3.6.0
+# transformers>=4.30.0
+
+# Optional: Computer Vision (uncomment if needed)
+# opencv-python>=4.8.0
+# Pillow>=10.0.0
+
+# Optional: Time Series (uncomment if needed)
+# statsmodels>=0.14.0
+# prophet>=1.1.0
